@@ -1,0 +1,11 @@
+# Секреты
+.env
+.env.local
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.log
+*.sqlite3
