@@ -63,13 +63,6 @@ pip install -r requirements.txt
 
 ```
 
-*Если файла `requirements.txt` нет:*
-
-```bash
-pip install python-dotenv langchain-core langgraph langchain-gigachat streamlit pydantic
-
-```
-
 ### 3. Конфигурация (.env)
 
 Создайте файл `.env` в корне проекта. Для стабильной работы используйте конфигурацию GigaChat:
@@ -77,7 +70,7 @@ pip install python-dotenv langchain-core langgraph langchain-gigachat streamlit 
 ```env
 # --- ОСНОВНАЯ КОНФИГУРАЦИЯ (GigaChat) ---
 LLM_PROVIDER=gigachat
-LLM_MODEL=GigaChat-Pro
+LLM_MODEL=GigaChat-2-Pro
 LLM_TEMPERATURE=0.2
 
 # Учетные данные GigaChat API
